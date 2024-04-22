@@ -62,6 +62,13 @@ Our goal is to predict whether or not a wildfire will reach it (`wlf`) given all
 
 Name 2 model types that are sensitive to skewed predictors or predictors with extreme/unusual values (i.e. outliers).
 
+::: {.callout-tip icon="false"}
+## Solution
+
+YOUR SOLUTION HERE
+
+:::
+
 Are there any model types that are immune to such issues with their predictors? If so, name one and explain why it is immune to outliers.
 
 ::: {.callout-tip icon="false"}
@@ -71,14 +78,6 @@ YOUR SOLUTION HERE
 
 :::
 
-Are there any model types that are immune to such issues with their predictors? If so, name one.
-
-::: {.callout-tip icon="false"}
-## Solution
-
-YOUR SOLUTION HERE
-
-:::
 
 ### Exercise 2
 
