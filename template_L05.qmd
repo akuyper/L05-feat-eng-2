@@ -7,6 +7,7 @@ date: today
 
 format:
   html:
+    theme: cosmo
     toc: true
     toc-depth: 4
     toc-location: left
@@ -16,10 +17,10 @@ format:
 
 execute:
   warning: false
-  
+
 from: markdown+emoji
 reference-location: margin
-citation-location: margin
+citation-location: margin 
 ---
 
 
@@ -54,7 +55,7 @@ Useful Readings:
 ::: {.callout-note icon="false"}
 ## Prediction goal
 
-Our goal is to predict whether or not a wildfire will reach it (`wlf`) given all the other variables in our dataset except for `burned`.
+Our goal is to predict whether or not a wildfire will reach the wildlife protection zone (`wlf`) given all the other variables in our dataset.
 
 :::
 
@@ -107,7 +108,7 @@ Prepare your data for modeling. For tuning we suggest using 5 folds and 3 repeat
 
 #### Task 1
 
-Create a "minimal effort/kitchen sink" recipe that predicts `wlf` using all variables except for `burned`.
+Create a "minimal effort/kitchen sink" recipe that predicts `wlf` using all other variables.
 
 ::: {.callout-tip icon="false"}
 ## Solution
@@ -119,7 +120,7 @@ YOUR SOLUTION HERE - display recipe
 
 #### Task 2
 
-Create a recipe with more advanced feature engineering that predicts `wlf` using all variables except for `burned` and the following steps
+Create a recipe with more advanced feature engineering that predicts `wlf` using all other variables and the following steps
 
   - use a Yeo-Johnson transformation on `windspd`
   - remove highly correlated variables (above 90%)
