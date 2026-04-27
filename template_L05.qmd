@@ -124,8 +124,8 @@ Create a recipe with more advanced feature engineering that predicts `wlf` using
 
   - use a Yeo-Johnson transformation on `windspd`
   - remove highly correlated variables (above 90%)
-  - add interactions between all predictor variables
-  - add a principal component step (could try kernel pca as well) in order to reduce the dimensionality after adding all two-way interactions. Tune the number of components as well by flagging it with `tune()`. 
+  - add two-way interactions between all predictor variables
+  - add a **P**rincipal **C**omponent **A**nalysis (PCA) step (could try kernel PCA as well) in order to reduce the dimensionality after adding all two-way interactions. Tune the number of components as well by flagging it with `tune()`. 
 
 
 ::: {.callout-note}

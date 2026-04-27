@@ -31,6 +31,9 @@
 *.DS_Store
 **/.DS_Store
 
+# ignore posit ai
+.positai
+
 # ignore files (likely datasets) if too large (> 100 MB)
 # specify pathway to dataset data/project_dataset.csv
 # if all datasets are too large then use data/*.csv (only ignores CSVs)
